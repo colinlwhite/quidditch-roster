@@ -1,5 +1,8 @@
+// you don't have to use the file extension when working with SCSS
+
 @import "~bootstrap/scss/bootstrap";
+@import "./styles/variables"; 
 
 body {
-  background-color: grey;
+  background-color: $darkgray;
 }
