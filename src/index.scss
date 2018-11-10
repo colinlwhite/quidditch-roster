@@ -1,5 +1,13 @@
+// you don't have to use the file extension when working with SCSS
+// variables and nesting and maybe extends and mixins
+
 @import "~bootstrap/scss/bootstrap";
+@import "./styles/variables"; 
 
 body {
-  background-color: grey;
+  background-color: $darkgray;
+
+  #button-container {
+    margin-top: 100px;
+  }
 }
